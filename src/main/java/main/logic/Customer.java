@@ -77,7 +77,7 @@ public class Customer implements Serializable {
         this.city = city;
     }
 
-    public double getAveragePurchase() { return (double) totalPurchases / numberOfPurchases;}
+    public int getAveragePurchase() { return totalPurchases / numberOfPurchases;}
 
     @Override
     public String toString() {

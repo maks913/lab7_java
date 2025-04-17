@@ -69,7 +69,7 @@ public class CustomerService {
     public int findCustomerById(List<Customer> customers, int customerId) {
         for (Customer customer : customers) {
             if (customer.getId() == customerId) {
-                return (int) customer.getAveragePurchase();
+                return customer.getAveragePurchase();
             }
         }
         return -1;
