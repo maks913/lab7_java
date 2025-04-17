@@ -14,8 +14,8 @@ public class CustomerRepositoryTxtIml implements CustomerRepository {
             if (customers != null) {
                 for (Customer customer : customers) {
                     out.println(customer.getId() + ";" +
-                            customer.getCity() + ";" +
                             customer.getCustomerName() + ";" +
+                            customer.getCity() + ";" +
                             customer.getCardNumber() + ";" +
                             customer.getAccBalance() + ";" +
                             customer.getNumberOfPurchases() + ";" +
