@@ -65,12 +65,12 @@ public class Controller {
                 case 8->{
                     view.showMessage("Enter file name:");
                     String file = scanner.nextLine();
-                    customerService.readListTxt(file);
+                    customers =  customerService.readListTxt(file);
                 }
                 case 9 ->{
                     view.showMessage("Enter file name:");
                     String file = scanner.nextLine();
-                    customerService.readListBinary(file);
+                    customers = customerService.readListBinary(file);
                 }
                 case 10 ->{
                     view.showMessage("All customers:");
